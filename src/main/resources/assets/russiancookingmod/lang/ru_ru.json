@@ -1,0 +1,30 @@
+{
+  "language": "Russian",
+  "language.region": "Russia",
+  "language.code": "ru_ru",
+  "author": "Tutuplay2222",
+
+  "item.russiancookingmod.shaverma": "Шаверма",
+  "item.russiancookingmod.dough": "Тесто",
+  "creativetab.russiancookingmod.russian_cooking_tab": "Russian Cooking Mod",
+  "item.russiancookingmod.lepeshka": "Сырая Лепёшка",
+  "item.russiancookingmod.cooked_lepeshka": "Готовая Лепёшка",
+  "item.russiancookingmod.sour_cream": "Сметана",
+  "item.russiancookingmod.whey": "Сыворотка",
+  "item.russiancookingmod.yogurt": "Йогурт",
+  
+  "item.russiancookingmod.petri_dish": "Чашка Петри",
+  "item.russiancookingmod.heated_milk": "Пастеризованное Молоко",
+  "item.minecraft.milk_bucket": "Непастеризованное Молоко",
+  "item.russiancookingmod.petri_dish_milk_bacteria_sour_cream": "Чашка Петри с бактериями сметаны",
+  "item.russiancookingmod.petri_dish_milk_bacteria_yogurt": "Чашка Петри с бактериями йогурта",
+  "item.russiancookingmod.petri_dish_milk_bacteria_whey": "Чашка Петри с бактериями сыворотки",
+  "item.russiancookingmod.coal_salt": "Грязная Угольная Соль",
+  "item.russiancookingmod.raw_coal_mixture": "Сырая Угольная Смесь",
+  "item.russiancookingmod.food_coal_salt": "Пищевая Угольная Соль",
+  "item.russiancookingmod.grated_potato": "Натёртая Картошка",
+  "item.russiancookingmod.grated_carrot": "Натёртая Морковь",
+  "block.russiancookingmod.grater": "Тёрка",
+  "item.russiancookingmod.korean_carrot": "Морковь По Корейски"
+  
+}

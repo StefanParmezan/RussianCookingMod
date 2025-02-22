@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "   ",
+      "BBB", 
+      "   "
+    ],
+    "key": {
+      "B": {
+        "item": "russiancookingmod:dough"
+      }
+    },
+    "result": {
+      "item": "russiancookingmod:lepeshka",
+      "count": 1
+    }
+  }

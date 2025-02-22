@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "BCD",
+    "   "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:water_bucket"
+    },
+    "C": {
+      "item": "minecraft:hay_block"
+    },
+    "D": {
+      "item": "minecraft:egg"
+    }
+  },
+  "result": {
+    "item": "russiancookingmod:dough",
+    "count": 8
+  },
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "russiancookingmod:dough"
+    }
+  ]
+}

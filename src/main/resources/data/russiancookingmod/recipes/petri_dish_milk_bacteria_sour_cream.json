@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:milk_bucket"
+        },
+        {
+            "item": "russiancookingmod:petri_dish"
+        },
+        {
+            "item": "minecraft:rotten_flesh"
+        }
+    ],
+    "result": {
+        "item": "russiancookingmod:petri_dish_milk_bacteria_sour_cream",
+        "count": 1
+    }
+}

@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[45,)"
+license="MIT"
+
+[[mods]]
+modId="russiancookingmod"
+version="1.0 - DEMO"
+displayName="Russian Cooking Mod"
+logoFile="assets/russiancookingmod/logo.png" # Убедитесь, что файл логотипа существует
+credits="Russian Cooking Mod Team"
+authors="Tutuplay2222, and others"
+description="Cooking mod adding various food, especially Russian"
+
+[[dependencies.russiancookingmod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[45,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.russiancookingmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.4,1.20)"
+    ordering="NONE"
+    side="BOTH"

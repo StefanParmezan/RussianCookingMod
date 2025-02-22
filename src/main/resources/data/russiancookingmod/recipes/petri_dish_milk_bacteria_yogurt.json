@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:milk_bucket"
+        },
+        {
+            "item": "russiancookingmod:petri_dish"
+        },
+        {
+            "item": "minecraft:slime_ball"
+        }
+    ],
+    "result": {
+        "item": "russiancookingmod:petri_dish_milk_bacteria_yogurt",
+        "count": 1
+    }
+}

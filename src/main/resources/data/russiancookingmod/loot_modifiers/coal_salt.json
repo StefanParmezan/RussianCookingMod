@@ -1,0 +1,6 @@
+{
+  "type": "russiancookingmod:coal_salt_modifier",
+  "conditions": [],
+  "baseChance": 0.2,
+  "fortuneMultiplier": 0.05
+}

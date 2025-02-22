@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "russiancookingmod:item/food_coal_salt"
+    }
+  }

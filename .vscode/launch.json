@@ -1,0 +1,65 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+      {
+          "type": "java",
+          "name": "Minecraft Client",
+          "request": "launch",
+          "mainClass": "cpw.mods.bootstraplauncher.BootstrapLauncher",
+          "projectName": "myfirstmod",
+          "cwd": "${workspaceFolder}\\run",
+          "preLaunchTask": "gradle: runClient"
+      },
+      {
+          "type": "java", 
+          "name": "Minecraft Server",
+          "request": "launch",
+          "mainClass": "cpw.mods.bootstraplauncher.BootstrapLauncher",
+          "projectName": "myfirstmod",
+          "cwd": "${workspaceFolder}\\run",
+          "preLaunchTask": "gradle: runServer"
+      },
+      {
+          "type": "java",
+          "name": "runData",
+          "request": "launch",
+          "mainClass": "cpw.mods.bootstraplauncher.BootstrapLauncher",
+          "projectName": "myfirstmod",
+          "cwd": "${workspaceFolder}\\run",
+          "vmArgs": "-Dforge.logging.console.level=debug -Dforge.logging.markers=REGISTRIES -DlegacyClassPath.file=${workspaceFolder}\\build\\classpath\\runData_minecraftClasspath.txt -DignoreList=bootstraplauncher,securejarhandler,asm-commons,asm-util,asm-analysis,asm-tree,asm,JarJarFileSystems,client-extra,fmlcore,javafmllanguage,lowcodelanguage,mclanguage,forge-",
+          "args": "--launchTarget forgedatauserdev --mod russiancookingmod --all --output ${workspaceFolder}\\src\\generated\\resources --existing ${workspaceFolder}\\src\\main\\resources",
+          "env": {
+              "MOD_CLASSES": "russiancookingmod%%${workspaceFolder}\\bin\\main",
+              "MCP_MAPPINGS": "official_1.19.4"
+          }
+      },
+      {
+          "type": "java",
+          "name": "runGameTestServer",
+          "request": "launch",
+          "mainClass": "cpw.mods.bootstraplauncher.BootstrapLauncher",
+          "projectName": "myfirstmod",
+          "cwd": "${workspaceFolder}\\run",
+          "vmArgs": "-Dforge.logging.console.level=debug -Dforge.logging.markers=REGISTRIES -Dforge.enabledGameTestNamespaces=russiancookingmod",
+          "args": "--launchTarget forgegametestserveruserdev --gameDir .",
+          "env": {
+              "MOD_CLASSES": "russiancookingmod%%${workspaceFolder}\\bin\\main",
+              "MCP_MAPPINGS": "official_1.19.4"
+          }
+      },
+      {
+          "type": "java",
+          "name": "runServer",
+          "request": "launch",
+          "mainClass": "cpw.mods.bootstraplauncher.BootstrapLauncher",
+          "projectName": "myfirstmod",
+          "cwd": "${workspaceFolder}\\run",
+          "vmArgs": "-Dforge.logging.console.level=debug -Dforge.logging.markers=REGISTRIES",
+          "args": "--launchTarget forgeserveruserdev --gameDir .",
+          "env": {
+              "MOD_CLASSES": "russiancookingmod%%${workspaceFolder}\\bin\\main",
+              "MCP_MAPPINGS": "official_1.19.4"
+          }
+      }
+  ]
+}

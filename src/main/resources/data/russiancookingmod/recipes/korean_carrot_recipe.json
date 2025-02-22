@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CAA",
+    "CBA",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "russiancookingmod:grated_carrot"
+    },
+    "B": {
+      "item": "minecraft:sugar"
+    },
+    "A": {
+      "item": "russiancookingmod:food_coal_salt"
+    }
+  },
+  "result": {
+    "item": "russiancookingmod:korean_carrot",
+    "count": 2
+  }
+}

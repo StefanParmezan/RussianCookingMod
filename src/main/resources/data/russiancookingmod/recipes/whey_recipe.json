@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {"item": "russiancookingmod:heated_milk"},
+      {"item": "russiancookingmod:petri_dish_milk_bacteria_whey"}
+    ],
+    "result": {
+      "item": "russiancookingmod:whey",
+      "count": 1
+    }
+  }

@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {"item": "russiancookingmod:heated_milk"},
+      {"item": "russiancookingmod:petri_dish_milk_bacteria_sour_cream"}
+    ],
+    "result": {
+      "item": "russiancookingmod:sour_cream",
+      "count": 1
+    }
+  }

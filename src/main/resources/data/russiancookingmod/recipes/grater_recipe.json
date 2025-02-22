@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " A ",
+      "DCD",
+      "D D"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:stick"
+      },
+      "C": {
+        "item": "minecraft:iron_block"
+      },
+      "D": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "result": {
+      "item": "russiancookingmod:grater",
+      "count": 1
+    },
+    "conditions": [
+      {
+        "type": "forge:item_exists",
+        "item": "russiancookingmod:grater"
+      }
+    ]
+  }

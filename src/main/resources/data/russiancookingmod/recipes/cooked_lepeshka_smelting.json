@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smoking",
+    "ingredient": {
+      "item": "russiancookingmod:lepeshka"
+    },
+    "result": "russiancookingmod:cooked_lepeshka",
+    "experience": 0.35,
+    "cookingtime": 400
+  }

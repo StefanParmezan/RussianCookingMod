@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:campfire_cooking",
+    "ingredient": {
+        "item": "russiancookingmod:raw_coal_mixture"
+    },
+    "result": "russiancookingmod:food_coal_salt",
+    "experience": 0.5,
+    "cookingtime": 200
+}

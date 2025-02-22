@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "AAA",
+        "ABA",
+        "AAA"
+    ],
+    "key": {
+        "A": {
+            "item": "russiancookingmod:coal_salt"
+        },
+        "B": {
+            "item": "minecraft:water_bucket"
+        }
+    },
+    "result": {
+        "item": "russiancookingmod:raw_coal_mixture",
+        "count": 4
+    }
+}

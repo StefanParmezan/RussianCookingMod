@@ -1,0 +1,10 @@
+{
+    "type": "russiancookingmod:coal_salt_modifier",
+    "conditions": [
+        {
+            "condition": "minecraft:survives_explosion"
+        }
+    ],
+    "baseChance": 0.2,
+    "fortuneMultiplier": 0.05
+}
