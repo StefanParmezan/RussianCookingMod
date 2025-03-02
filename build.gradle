@@ -5,9 +5,9 @@ plugins {
     id 'net.minecraftforge.gradle' version '[6.0,6.2]'
 }
 
-version = '1.0 - DEMO'
-group = 'java.com.tutuplay2222'
-archivesBaseName = 'RussianCookingMod'
+version = '1.0-DEMO'
+group = 'com.tutuplay2222.russiancookingmod'
+archivesBaseName = 'RussianCookingMod-1.19.4'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
@@ -19,7 +19,7 @@ minecraft {
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
             mods {
-                myfirstmod {
+                russiancookingmod {
                     source sourceSets.main
                 }
             }
@@ -29,7 +29,7 @@ minecraft {
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
             mods {
-                myfirstmod {
+                russiancookingmod {
                     source sourceSets.main
                 }
             }

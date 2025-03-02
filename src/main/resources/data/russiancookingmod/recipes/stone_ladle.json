@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "CDC",
+    "   "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:stone_axe"
+    },
+    "C": {
+      "item": "minecraft:cobblestone"
+    },
+    "D": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "russiancookingmod:stone_ladle"
+  }
+}

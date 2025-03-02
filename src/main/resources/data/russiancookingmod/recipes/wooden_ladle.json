@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "CDC",
+    "   "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:wooden_axe"
+    },
+    "C": {
+      "item": "minecraft:oak_planks"
+    },
+    "D": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "russiancookingmod:wooden_ladle"
+  }
+}

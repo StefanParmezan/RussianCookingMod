@@ -58,6 +58,12 @@ public class russiancookingmod {
                 .title(Component.translatable("creativetab." + MODID + ".russian_cooking_tab"))
                 .icon(() -> new ItemStack(moditems.LOGO.get()))
                 .displayItems((enabledFlags, populator) -> {
+                    populator.accept(moditems.WOODEN_LADLE.get());
+                    populator.accept(moditems.STONE_LADLE.get());
+                    populator.accept(moditems.IRON_LADLE.get());
+                    populator.accept(moditems.GOLDEN_LADLE.get());
+                    populator.accept(moditems.DIAMOND_LADLE.get());
+                    populator.accept(moditems.NETHERITE_LADLE.get());
                     // Существующие предметы
                     populator.accept(moditems.SHAVERMA.get());
 

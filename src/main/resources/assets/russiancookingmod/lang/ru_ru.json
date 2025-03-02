@@ -25,6 +25,17 @@
   "item.russiancookingmod.grated_potato": "Натёртая Картошка",
   "item.russiancookingmod.grated_carrot": "Натёртая Морковь",
   "block.russiancookingmod.grater": "Тёрка",
-  "item.russiancookingmod.korean_carrot": "Морковь По Корейски"
+  "item.russiancookingmod.korean_carrot": "Морковь По Корейски",
+  "item.russiancookingmod.wooden_ladle": "Боевая Деревянная Поварёшка",
+  "item.russiancookingmod.stone_ladle": "Боевая Каменнная Поварёшка",
+  "item.russiancookingmod.iron_ladle": "Боевая Железная Поварёшка",
+  "item.russiancookingmod.golden_ladle": "Боевая Золотая Поварёшка",
+  "item.russiancookingmod.diamond_ladle": "Боевая Алмазная Поварёшка",
+  "item.russiancookingmod.netherite_ladle": "Боевая Незеритовая Поварёшка",
+  "advancement.russiancookingmod.netherite_ladle_advancement.title": "Кухонный терминатор",
+  "advancement.russiancookingmod.netherite_ladle_advancement.description": "Когда твоя кухня становится полем боя..."
+
+
+
   
 }
