@@ -67,7 +67,7 @@ public class moditems {
             () -> new Item(new Item.Properties()
                     .food(new FoodProperties.Builder()
                             .nutrition(5)
-                            .saturationMod(0.6f)
+                            .saturationMod(4.0f)
                             .build())
             ));
 
@@ -75,7 +75,7 @@ public class moditems {
             () -> new Item(new Item.Properties()
                     .food(new FoodProperties.Builder()
                             .nutrition(6)
-                            .saturationMod(0.6f)
+                            .saturationMod(4.0f)
                             .build())
             ));
 
@@ -83,7 +83,7 @@ public class moditems {
             () -> new Item(new Item.Properties()
                     .food(new FoodProperties.Builder()
                             .nutrition(1)
-                            .saturationMod(0.3f)
+                            .saturationMod(1.0f)
                             .build())
             ));
 
@@ -99,7 +99,7 @@ public class moditems {
             () -> new Item(new Item.Properties()
                     .food(new FoodProperties.Builder()
                             .nutrition(3)
-                            .saturationMod(0.6f)
+                            .saturationMod(2.0f)
                             .build())
             ));
 
@@ -107,7 +107,7 @@ public class moditems {
             () -> new Item(new Item.Properties()
                     .food(new FoodProperties.Builder()
                             .nutrition(6)
-                            .saturationMod(0.8f)
+                            .saturationMod(3.6f)
                             .build())
             ));
 
@@ -115,10 +115,16 @@ public class moditems {
             () -> new Item(new Item.Properties()
                     .food(new FoodProperties.Builder()
                             .nutrition(8)
-                            .saturationMod(1.0f)
+                            .saturationMod(12.8f)
                             .build())
             ));
-
+    public static final RegistryObject<Item> SANDWICH = ITEMS.register("sandwich",
+            () -> new Item(new Item.Properties()
+                    .food(new FoodProperties.Builder()
+                            .nutrition(10)
+                            .saturationMod(14.4f)
+                            .build())
+                    ));
     public static final RegistryObject<Item> HEATED_MILK = ITEMS.register("heated_milk",
             () -> new HeatedMilk());
 
@@ -140,14 +146,14 @@ public class moditems {
                     .stacksTo(64)
                     .food(new FoodProperties.Builder()
                             .nutrition(2)
-                            .saturationMod(0.3f)
+                            .saturationMod(1.5f)
                             .build())));
     public static final RegistryObject<Item> KOREAN_CARROT = ITEMS.register("korean_carrot",
             () -> new Item(new Item.Properties()
                     .stacksTo(64)
                     .food(new FoodProperties.Builder()
                             .nutrition(4)
-                            .saturationMod(0.3f)
+                            .saturationMod(1.5f)
                             .build())));
 
     public static final RegistryObject<Item> GRATED_POTATO = ITEMS.register("grated_potato",
@@ -155,7 +161,7 @@ public class moditems {
                     .stacksTo(64)
                     .food(new FoodProperties.Builder()
                             .nutrition(1)
-                            .saturationMod(0.2f)
+                            .saturationMod(1.5f)
                             .build())));
 
     // Логотип для креативной вкладки
@@ -172,10 +178,10 @@ public class moditems {
             () -> new LadleItem(Tiers.GOLD, 6, -3.0F, new Item.Properties()));
 
     public static final RegistryObject<Item> DIAMOND_LADLE = ITEMS.register("diamond_ladle",
-            () -> new LadleItem(Tiers.DIAMOND, 6, -3.0F, new Item.Properties()));
+            () -> new LadleItem(Tiers.DIAMOND, 7, -3.1F, new Item.Properties()));
 
     public static final RegistryObject<Item> NETHERITE_LADLE = ITEMS.register("netherite_ladle",
-            () -> new LadleItem(Tiers.NETHERITE, 6, -3.0F, new Item.Properties()));
+            () -> new LadleItem(Tiers.NETHERITE, 7, -3.1F, new Item.Properties()));
 
     // Внутренний класс для нагретого молока
     public static class HeatedMilk extends Item {
@@ -202,7 +208,7 @@ public class moditems {
         @Nonnull
         public ItemStack finishUsingItem(@Nonnull ItemStack stack, @Nonnull Level level, @Nonnull LivingEntity entity) {
             if (entity instanceof Player player) {
-                player.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 200, 1));
+                player.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 200, 0));
             }
             return super.finishUsingItem(stack, level, entity);
         }

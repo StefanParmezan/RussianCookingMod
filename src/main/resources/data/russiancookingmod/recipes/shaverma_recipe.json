@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "ABA",
+    " D "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:cooked_lepeshka"
+    },
+    "B": {
+      "item": "minecraft:cooked_chicken"
+    },
+    "C": {
+      "item": "russiancookingmod:sour_cream"
+    },
+    "D": {
+      "item": "russiancookingmod:korean_carrot"
+    }
+  },
+  "result": {
+    "item": "russiancookingmod:shaverma",
+    "count": 1
+  }
+}

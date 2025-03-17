@@ -66,6 +66,7 @@ public class russiancookingmod {
                     populator.accept(moditems.NETHERITE_LADLE.get());
                     // Существующие предметы
                     populator.accept(moditems.SHAVERMA.get());
+                    populator.accept(moditems.SANDWICH.get());
 
                     populator.accept(moditems.PETRI_DISH.get());
                     populator.accept(moditems.HEATED_MILK.get());

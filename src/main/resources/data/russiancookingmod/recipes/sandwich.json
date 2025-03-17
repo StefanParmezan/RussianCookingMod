@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "CBD",
+    " A "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:bread"
+    },
+    "B": {
+      "item": "minecraft:cooked_beef"
+    },
+    "C": {
+      "item": "russiancookingmod:sour_cream"
+    },
+    "D": {
+      "item": "minecraft:carrot"
+    }
+
+  },
+  "result": {
+    "item": "russiancookingmod:sandwich",
+    "count": 2
+  }
+}
